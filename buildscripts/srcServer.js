@@ -12,7 +12,7 @@ app.get('/test',function(req,res){
 app.listen(port,function(err){
     if(err)
     {
-        console.log(err)
+        console.log(err +" test")
     }
     else{
         //open("http://localhost:" + port);
