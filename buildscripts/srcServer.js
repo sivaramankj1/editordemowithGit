@@ -15,6 +15,6 @@ app.listen(port,function(err){
         console.log(err +" test")
     }
     else{
-        //open("http://localhost:" + port);
+        open("http://localhost:" + port);
     }
 });
